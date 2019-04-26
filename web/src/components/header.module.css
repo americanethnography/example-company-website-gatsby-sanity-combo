@@ -45,6 +45,7 @@
   margin: 0;
   padding: calc(14 / 17 / 2 * 1rem);
   outline: none;
+  cursor: pointer;
 
   & svg {
     display: block;
