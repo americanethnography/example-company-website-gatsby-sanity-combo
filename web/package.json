@@ -8,7 +8,7 @@
     "deploy": "npm run now-deploy",
     "develop": "gatsby develop",
     "lint": "eslint .",
-    "now-build": "npm run build",
+    "now-build": "npm run build -o dist",
     "start": "npm run develop",
     "format": "prettier-eslint --write \"**/*.js\" \"!.cache/**\" \"!node_modules/**\" \"!public/**\"",
     "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
